@@ -41,6 +41,13 @@
         installCargo = true;
         installRustc = true;
       };
+      # TypeScript/JavaScript
+      ts_ls = {
+        enable = true;
+      };
+      eslint = {
+        enable = true;
+      };
     };
 
     keymaps = {

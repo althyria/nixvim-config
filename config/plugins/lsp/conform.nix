@@ -25,6 +25,15 @@
         rust = [
           "rustfmt"
         ];
+        javascript = [
+          "prettier"
+        ];
+        css = [
+          "prettier"
+        ];
+        html = [
+          "prettier"
+        ];
       };
 
       # Install our formatters
@@ -50,6 +59,9 @@
         };
         rustfmt = {
           command = lib.getExe pkgs.rustfmt;
+        };
+        prettier = {
+          command = lib.getExe pkgs.prettierd;
         };
       };
 
