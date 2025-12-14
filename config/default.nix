@@ -35,6 +35,7 @@
 
     # User Interface Plugins
     ./plugins/ui/lualine.nix
+    ./plugins/ui/nvim-tree.nix
     ./plugins/ui/web-devicons.nix
     ./plugins/ui/whichkey.nix
 
