@@ -19,8 +19,7 @@
         "core.dirman" = {
           config = {
             workspaces = {
-              docs = "~/Notes/docs";
-              school = "~/Notes/school";
+              docs = "~/Documents";
             };
             default_workspace = "docs";
           };
