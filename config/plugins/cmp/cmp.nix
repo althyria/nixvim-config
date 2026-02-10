@@ -22,9 +22,6 @@
 
         # VimTex
         { name = "vimtex"; }
-
-        # Neorg
-        { name = "neorg"; }
       ];
 
       # Key mappings for the completion menu.

@@ -16,7 +16,7 @@
     shiftwidth = 2;
     expandtab = true;
 
-    # Required for neorg
+    # Useful for render-markdown
     conceallevel = 2;
     foldlevel = 99;
 

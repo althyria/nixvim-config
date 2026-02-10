@@ -28,5 +28,14 @@
         desc = "+list";
       };
     }
+
+    {
+      mode = ["n"];
+      key = "<leader>W";
+      action = "<Nop>";
+      options = {
+        desc = "+wiki";
+      };
+    }
   ];
 }
