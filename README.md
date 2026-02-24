@@ -13,7 +13,7 @@ This repository contains my personal configuration for Neovim, managed with NixV
 **Intergration with NixOS/Home-Manager.**
 ```nix
 inputs = {
-  nixvim-config.url = "git+https://git.sajenim.dev/jasmine/nvim.nix.git";
+  nixvim-config.url = "github:althyria/nixvim-config";
 };
 ```
 
@@ -30,7 +30,7 @@ inputs = {
 
 **Build and Run**
 ```sh
-nix run git+https://git.sajenim.dev/jasmine/nvim.nix.git
+nix run github:althyria/nixvim-config
 ```
 
 ## References
