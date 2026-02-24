@@ -34,7 +34,7 @@
 
     {
       mode = ["n"];
-      key = "<Del>";
+      key = "<C-Del>";
       action = "zz";
       options = {
         silent = true;
