@@ -27,7 +27,7 @@
       # Key mappings for the completion menu.
       mapping = {
         # Confirm selection
-        "<CR>" = /* lua */ ''
+        "<Tab>" = /* lua */ ''
           cmp.mapping.confirm({ select = true })
         '';
 
