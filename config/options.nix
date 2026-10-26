@@ -9,6 +9,7 @@
     updatetime=100;
     undofile = true;
     splitright = true;
+    timeoutlen = 250;
 
     # Tabs & Spaces
     tabstop = 2;
